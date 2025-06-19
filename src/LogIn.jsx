@@ -47,7 +47,7 @@ export default function LogIn() {
                 stroke="currentColor"
                 viewBox="0 0 24 24"
                 fill="none"
-                className="h-5 w-5 flex-shrink-0 mr-2 text-red-600"
+                className="h-5 w-5 flex-shrink-0 mr-2 text-White"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path

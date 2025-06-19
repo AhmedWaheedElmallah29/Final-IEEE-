@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
 
-const Button = () => {
+export default function LogoutBtn() {
   const navigate = useNavigate();
   function handleClick() {
     navigate("/");
@@ -19,7 +19,7 @@ const Button = () => {
       </button>
     </StyledWrapper>
   );
-};
+}
 
 const StyledWrapper = styled.div`
   .Btn {
@@ -96,5 +96,3 @@ const StyledWrapper = styled.div`
     transform: translate(2px, 2px);
   }
 `;
-
-export default Button;
