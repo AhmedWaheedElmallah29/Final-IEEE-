@@ -1,13 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import { LogIn } from "./Login/LogIn";
-import { Note } from "./Note/Note";
+import LogIn from "./LogIn";
+import Note from "./Note";
 
 export default function App() {
   return (
     <Routes>
-      {/* <Route path="/" element={<LogIn />} /> */}
-      {/* <Route path="/Note" element={<Note />} /> */}
-      <Route path="/" element={<Note />} />
+      <Route path="/" element={<LogIn />} />
+      <Route path="/Note" element={<Note />} />
     </Routes>
   );
 }
